@@ -16,7 +16,7 @@ public class Gerente extends Empleado {
     
     @Override 
     void calcularPago(){
-        System.out.println("Nombre del empleado: "+ nombre + "$" + salario)
-
+        System.out.println("Nombre del empleado: "+ nombre + "Salario Base:$ " + salarioBase + "Bono fijo: " + this.bonoFijo);
+        
     }
 }
